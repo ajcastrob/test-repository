@@ -3,10 +3,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: system-ui, sans-serif;
-  background-color: hsl(0, 40%, 40%, 0.4);
+  background-color: hsl(0, 10%, 20%, 0.4);
 }
 
 h1 {
   text-align: center;
-  color: hsl(300, 80%, 80%, 0.5);
+  color: hsl(0, 100%, 100%, 0.5);
 }
