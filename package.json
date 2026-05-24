@@ -2,24 +2,26 @@
   "name": "proyecto-2",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "servor src/ index.html 1234 --reload"
+    "dev": "servor src/ index.html 1234 --reload",
+    "deploy": "gh-pages -d src/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "oxfmt": "^0.51.0",
+    "oxlint": "^1.66.0",
+    "servor": "^4.0.2"
+  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
       "version": "^11.2.2",
       "onFail": "download"
     }
-  },
-  "type": "module",
-  "devDependencies": {
-    "oxfmt": "^0.51.0",
-    "oxlint": "^1.66.0",
-    "servor": "^4.0.2"
   }
 }
