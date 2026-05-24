@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: system-ui, sans-serif;
-  background-color: hsl(0, 40%, 40%, 0.4);
+  background-color: hsl(0, 10%, 20%, 0.4);
 }
 
 h1 {
